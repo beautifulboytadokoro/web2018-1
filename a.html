@@ -1,14 +1,99 @@
- <!DOCTYPE html> 
-<html lang ="ja">
+<!DOCTYPE　html>
+<html lang="ja">
 <head>
-<meta charset="UTF -8"> 
-<title>アンカータグの練習 </title> 
-</head> 
-<body> <p> アンカータグの練習です。 </p> 
-<a id="def">ここがdefの場所</a>
- <a href="a.html">相対パスでリンクします</a><br>
- <a href="https://www.josai.ac.jp/education/management/index.html">絶対パスで城西大学経営学部へリンクします。<a/><br>
- <a href="mailto:info@yahoo.com">メール（実際には動きません）</a><br>
- <a href="https://www.josai.ac.jp/"><image src="./josai.png"alt=城西大学ホームページ</a>
- </body>
- </html>
+<meta charset="UTF-8">
+ <link rel="stylesheet"href="mystyle.css"> 
+  <script src="ex0-1.js">
+</script>
+</head>
+
+<body>
+
+<div id="page">
+<div id="site_title">
+<h1><titile>自己紹介</titile>
+  </h1>
+<div id="header">
+<img src="image/nani.png">
+ </div>
+  
+  </div>
+                    
+  <div id="a-box">
+  <h3>
+    1.名前<br>
+    2.生年月日<br>
+    3.好きな食べ物<br>
+    4.好きなこと<br>
+    5.私の歩み<br>
+  </h3>
+  </div>
+
+<div id="b-box">
+  <table>
+<caption>
+  
+<thead> 
+<th>名前</th>
+<td>田所和輝</td>
+</thead> 
+
+<thead>
+<th>生年月日</th>
+<td>１９９８年８月４日</td>
+</thead>
+  
+<thead>
+ <th>部活動</th>
+ <td>
+   <a href="https://www.josai.ac.jp/club/culture_club.html">落語研究会</a></td><br>
+  </thead> 
+ 
+<thead>
+ <th>好きな食べ物</th>
+ <td>カレー</td>
+</thead>
+  
+<thead>
+ <th>おすすめのお店</th>
+ <td>
+  <a href="https://www.ichibanya.co.jp/">ここいち </a><br>
+</a>
+</td> 
+  <thead>
+    
+ <th>好きなこと</th>
+ <td>読書</td>
+</thead> 
+  
+<thead>
+ <th>好きな本</th>
+ <td><a href="https://www.aozora.gr.jp/cards/000148/files/789_14547.html">吾輩は猫である</a></td>  
+</thead>
+
+
+ 
+
+ <thead>
+ <th>私の歩み</th>
+ <td>１９９８年８月４日　山梨県で生まれる</br>
+           御勅使南幼稚園に通う。</br>
+            その後、白根百田小学校に通う。１年から空手を始める。</br>
+            仲間たちと切磋琢磨し、練習に励む。</br>
+            白根御勅使中学校に通う。グランドホッケーを始める。全国大会出場。</br>
+            山梨県立農林高校に入学。馬術部に入部。馬、ポニー、うさぎ、様々な動物をお育てる</br>
+            動物アレルギーだったことが発覚。退部し、アルバイト生活へ。</br>
+           城西大学入学。落語研究会に所属。漫才の研究に励む。</br>
+            週７、３６５連勤、トリプルワークにより、疲労。👈NEW</br></td>
+</thead>
+</caption> </table> 
+ <img id="myImage" src="./image/han.png" alt="zoo image" class="zoo"></br>
+
+<input type="button" value="さる" onclick="zoo1();">
+ 
+<input type="button" value="しし" onclick="zoo2();">
+<input type="button" value="いぬ" onclick="zoo3();">
+  
+ 
+</body>
+</html>
